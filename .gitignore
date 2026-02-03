@@ -1,0 +1,47 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.env
+.env.*
+
+# ===============================
+# Django
+# ===============================
+db.sqlite3
+media/
+staticfiles/
+*.sqlite3
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+env/
+.venv/
+
+# ===============================
+# Editor-specific (YOUR SETUP)
+# ===============================
+.cursor/
+.antigravity/
+
+# (Optional – safe to keep)
+.vscode/
+
+# ===============================
+# OS (Windows)
+# ===============================
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# Build / Cache
+# ===============================
+.cache/
+.pytest_cache/
+.mypy_cache/
